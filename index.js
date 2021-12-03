@@ -74,8 +74,15 @@ const promptUser = () => {
     {
       type: "Input",
       name: "Questions",
-      message: "Are there any questions regarding this project?",
-      default: 'No Questions'
+      message: "What is your GitHub Username? (Required)",
+      validate: (questionsInput) => {
+        if (questionsInput) {
+          return true;
+        } else {
+          console.log("You must enter a valid Username!");
+          return false;
+        }
+      }
     }
   ]);
 };
