@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateReadme = require('./src/readme-template');
+const generateReadMe = require('./src/readme-template');
 
 // TODO: Create an array of questions for user input
 const promptUser = () => {
@@ -35,12 +35,14 @@ const promptUser = () => {
     {
       type: "input",
       name: "Installation",
-      message: "Would you like to describe your project installation process?"
+      message: "Describe your project installation process",
+      default: "No installation process listed"
     },
     {
       type: "input",
       name: "Usage",
-      message: "Would you like to describe the usage of your project?"
+      message: "Would you like to describe the usage of your project?",
+      default: "No Usage entered"
     },
     {
       type: "checkbox",
@@ -60,20 +62,21 @@ const promptUser = () => {
     {
       type: "input",
       name: "Contributions",
-      message: "List all contributors to this project"
+      message: "List all contributors to this project",
+      default: "No contributors"
     },
     {
       type: "input",
       name: "Tests",
       message: "List all testing procedures for this project",
-      default: false
+      default: 'No Procedure'
     },
     {
       type: "Input",
       name: "Questions",
       message: "Are there any questions regarding this project?",
-      default: false
-    },
+      default: 'No Questions'
+    }
   ]);
 };
 
@@ -85,9 +88,13 @@ const promptUser = () => {
 
 // // Function call to initialize app
 // init();
-
 promptUser()
-  .then(answers => console.log(answers))
+  .then(answers => {return generateReadMe(answers)})
+  .then(data => {
+    fs.writeFile('./dist/README.md', data, err => {
+      err ? console.log(err) : console.log("Generated Function")
+    })
+  })
 // .then(answers => {
 //   return generateReadme
 // })
