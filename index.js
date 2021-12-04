@@ -50,13 +50,9 @@ const promptUser = () => {
       message: "What license does your project have? (Required)",
       choices: [
         "MIT",
-        "GNU AGPLv3",
-        "GNU GPLv3",
-        "GNU LGPLv3",
+        "Apache 2.0 License",
+        "IBM Public License Version 1.0",
         "Mozilla Public License 2.0",
-        "Apache License 2.0",
-        "Boost Software License 1.0",
-        "The Unlicense",
         "None"
       ],
     },
