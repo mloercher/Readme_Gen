@@ -56,7 +56,8 @@ const promptUser = () => {
         "Mozilla Public License 2.0",
         "Apache License 2.0",
         "Boost Software License 1.0",
-        "The Unlicense"
+        "The Unlicense",
+        "None"
       ],
     },
     {
@@ -73,13 +74,26 @@ const promptUser = () => {
     },
     {
       type: "Input",
-      name: "Questions",
-      message: "What is your GitHub Username? (Required)",
-      validate: (questionsInput) => {
-        if (questionsInput) {
+      name: "Email",
+      message: "What is your Email address? (Required)",
+      validate: (emailInput) => {
+        if (emailInput) {
           return true;
         } else {
-          console.log("You must enter a valid Username!");
+          console.log("You must enter a valid Email address!");
+          return false;
+        }
+      }
+    },
+    {
+      type: "Input",
+      name: "Github",
+      message: "What is your Github Username ? (Required)",
+      validate: (githubInput) => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log("You must enter a valid Email address!");
           return false;
         }
       }
@@ -96,12 +110,12 @@ const promptUser = () => {
 // // Function call to initialize app
 // init();
 promptUser()
-  .then(answers => {return generateReadMe(answers)})
-  .then(data => {
+  .then(answers => {var data = generateReadMe(answers)
+  // .then(data => {
     fs.writeFile('./dist/README.md', data, err => {
       err ? console.log(err) : console.log("Generated Function")
-    })
-  })
+  })});
+  //})
 // .then(answers => {
 //   return generateReadme
 // })
