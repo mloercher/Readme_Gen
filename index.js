@@ -60,7 +60,7 @@ const promptUser = () => {
       type: "input",
       name: "Contributions",
       message: "List all contributors to this project",
-      default: "No contributors"
+      default: "No contributors listed"
     },
     {
       type: "input",

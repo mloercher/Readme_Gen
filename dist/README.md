@@ -1,5 +1,5 @@
-# sdfsdfsd
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Amazing Project!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 undefined
 
@@ -13,7 +13,7 @@ undefined
     
 ## Description
 
-fdssdf
+It is amazing and impressive!
 
 ## Installation 
 
@@ -25,7 +25,7 @@ No Usage entered
 
 ## License
 
-Apache 2.0 License
+MIT
 
 ## Contributions
 
@@ -37,7 +37,7 @@ No Procedure
 
 ## Questions
 
-Email Address: fsfsdf
+Email Address: fdfssdf
 
-GitHub Username: fsdsdfsdf
+GitHub Username: fsdfsdaf
     
