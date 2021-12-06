@@ -12,7 +12,7 @@
     
 ## Description
 
-It is a quick, easy and efficient way to create a readme file
+It is a quick and easy way to generate a Readme file
 
 ## Installation 
 
