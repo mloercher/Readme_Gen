@@ -69,7 +69,7 @@ ${answers.Description}
 
 ## Installation 
 
-${answers.Installaton}
+${answers.Installation}
 
 ## Usage 
 
@@ -81,7 +81,7 @@ ${answers.License}
 
 ## Contributions
 
-${answers.Constributions}
+${answers.Contributions}
 
 ## Tests
 

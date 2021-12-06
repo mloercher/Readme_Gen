@@ -66,7 +66,7 @@ const promptUser = () => {
       type: "input",
       name: "Tests",
       message: "List all testing procedures for this project",
-      default: 'No Procedure'
+      default: 'No procedure listed'
     },
     {
       type: "Input",

@@ -21,7 +21,7 @@ undefined
 
 ## Usage 
 
-No Usage entered
+It is an easy way to generate a readme file
 
 ## License
 
@@ -33,11 +33,11 @@ undefined
 
 ## Tests
 
-No Procedure
+No procedure listed
 
 ## Questions
 
-Email Address: fdfssdf
+Email Address: markloercher@gmail.com
 
-GitHub Username: fsdfsdaf
+GitHub Username: mloercher
     
