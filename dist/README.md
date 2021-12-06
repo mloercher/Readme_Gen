@@ -1,7 +1,6 @@
-# Amazing Project!
+# ReadMe Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-undefined
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,15 +12,15 @@ undefined
     
 ## Description
 
-It is amazing and impressive!
+It is a quick and easy way to create a quality ReadMe file
 
 ## Installation 
 
-undefined
+No installation process listed
 
 ## Usage 
 
-It is an easy way to generate a readme file
+No Usage entered
 
 ## License
 
@@ -29,7 +28,7 @@ MIT
 
 ## Contributions
 
-undefined
+Mark Loercher
 
 ## Tests
 

@@ -53,7 +53,6 @@ module.exports = answers => {
     return `# ${answers.Title}
 ${renderLicenseBadge(answers.License)}
 
-${answers.renderLicenseBadge}
 
 ## Table of Contents
 * [Installation](#installation)
